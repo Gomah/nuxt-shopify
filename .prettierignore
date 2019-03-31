@@ -1,0 +1,4 @@
+.nuxt/
+coverage/
+dist/
+lib/
