@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "rootDir": "./src",
-    "lib": ["esnext"],
-    "outDir": "./lib",
-    "pretty": true,
     "target": "es2015",
-    "types": ["node", "jest"]
+    "module": "es2015",
+    "lib": ["dom", "esnext", "esnext.asynciterable"],
+    "allowJs": true,
+    "outDir": "./lib",
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "types": ["node", "jest", "@nuxt/vue-app"],
+    "esModuleInterop": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
 }
