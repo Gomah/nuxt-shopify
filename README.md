@@ -1,8 +1,10 @@
 # 🛍 Shopify Module
 
 [![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Dependencies][david-dm-src]][david-dm-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![code style: prettier](https://img.shields.io/badge/code_style-airbnb/prettier-FF5A5F.svg?style=flat-square)](https://github.com/airbnb/javascript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-black.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 > Easy <a href="https://github.com/Shopify/js-buy-sdk">Shopify Buy</a> client integration with Nuxt.js
 

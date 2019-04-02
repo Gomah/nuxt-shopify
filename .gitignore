@@ -59,4 +59,4 @@ jspm_packages/
 .nuxt
 
 # Lib
-.lib
+lib/
