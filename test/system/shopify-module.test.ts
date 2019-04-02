@@ -7,7 +7,7 @@ const get = path => request(url(path));
 
 jest.setTimeout(10000);
 
-describe('basic', () => {
+describe('Nuxt Shopify', () => {
   let nuxt;
 
   beforeAll(async () => {
@@ -20,10 +20,18 @@ describe('basic', () => {
     await nuxt.close();
   });
 
-  test('render', async () => {
-    let html = await get('/');
+  test('asyncData', async () => {
+    let html = await get('/async-data');
 
-    console.log('HTML', html);
-    expect(html).toContain('Hello');
+    expect(html).toContain('Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzk4OTUyNzYwOTk=');
+  });
+
+  test('mounted', async () => {
+    const window = await nuxt.renderAndGetWindow(url('/mounted'));
+
+    window.onNuxtReady(() => {
+      const html = window.document.body.innerHTML;
+      expect(html).toContain('Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzk4OTUyNzYwOTk=');
+    });
   });
 });
