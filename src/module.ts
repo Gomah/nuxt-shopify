@@ -1,9 +1,15 @@
-import * as path from 'path';
+const path = require('path');
 
 function shopifyModule(_moduleOptions) {
+  const { env, shopify } = this.options;
+
   // Combine options
   const moduleOptions = {
-    ...this.options.shopify,
+    ...(env && {
+      domain: env.SHOPIFY_DOMAIN,
+      storefrontAccessToken: env.SHOPIFY_ACCESS_TOKEN,
+    }),
+    ...shopify,
     ..._moduleOptions,
   };
 

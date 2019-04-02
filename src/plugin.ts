@@ -1,10 +1,13 @@
-import * as ShopifyBuy from 'shopify-buy';
+import ShopifyBuy from 'shopify-buy';
 
-export default (ctx, inject) => {
+if (process.server || (process.client && !window.fetch)) {
+  require('isomorphic-fetch');
+}
+
+export default async (ctx: any, inject: (name: string, value: any) => void) => {
   const config: ShopifyBuy.Config = {
-    domain: (process.env.SHOPIFY_DOMAIN as string) || '<%= options.domain %>',
-    storefrontAccessToken:
-      (process.env.SHOPIFY_ACCESS_TOKEN as string) || '<%= options.storefrontAccessToken %>',
+    domain: '<%= options.domain %>',
+    storefrontAccessToken: '<%= options.storefrontAccessToken %>',
   };
 
   const client: ShopifyBuy.Client = ShopifyBuy.buildClient(config);
