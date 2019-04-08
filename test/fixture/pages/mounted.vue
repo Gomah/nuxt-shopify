@@ -20,7 +20,7 @@ export default {
 
   async mounted() {
     const products = await this.$shopify.product.fetchAll();
-    this.$set(this.products, products);
+    this.$set(this, 'products', [...products]);
   },
 };
 </script>
