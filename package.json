@@ -37,13 +37,13 @@
   "dependencies": {
     "consola": "^2.7.1",
     "isomorphic-fetch": "^2.2.1",
-    "shopify-buy": "^2.2.4"
+    "shopify-buy": "^2.4.0"
   },
   "devDependencies": {
     "@types/consola": "^1.0.0",
-    "@types/jest": "^24.0.13",
+    "@types/jest": "^24.0.14",
     "@types/jsdom": "^12.2.3",
-    "@types/node": "^12.0.7",
+    "@types/node": "^12.0.8",
     "@types/shopify-buy": "^1.4.2",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
@@ -58,7 +58,7 @@
     "prettier": "^1.18.2",
     "standard-version": "^5.0.2",
     "ts-jest": "^24.0.2",
-    "ts-node": "^8.2.0",
-    "typescript": "^3.5.1"
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
   }
 }
