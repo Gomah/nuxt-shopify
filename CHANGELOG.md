@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](2019-06-15)
+
+- **deps:** update dependency shopify-buy to 2.4.0
+
 ## [1.0.5](https://github.com/Gomah/nuxt-shopify/compare/v1.0.4...v1.0.5) (2019-04-23)
 
 - **deps:** update dependency shopify-buy to 2.2.4
