@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](2019-07-04)
+
+- **deps:** update dependency shopify-buy to 2.6.0
+
+The shopify-buy v2.6.0 introduces API Versioning! Starting with this release, each release will be tied to a new API version. Learn more about versioning [here](https://help.shopify.com/en/api/versioning).
+
 ## [1.2.0](2019-06-19)
 
 - **deps:** update dependency shopify-buy to 2.5.0
