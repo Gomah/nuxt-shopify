@@ -37,7 +37,7 @@
   "dependencies": {
     "consola": "^2.9.0",
     "isomorphic-fetch": "^2.2.1",
-    "shopify-buy": "^2.6.0"
+    "shopify-buy": "^2.6.1"
   },
   "devDependencies": {
     "@types/consola": "^1.0.0",
