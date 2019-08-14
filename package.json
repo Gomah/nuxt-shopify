@@ -35,21 +35,21 @@
     "test:lint": "eslint --ext .js,.ts, src/"
   },
   "dependencies": {
-    "consola": "^2.9.0",
+    "@types/shopify-buy": "^1.4.3",
+    "consola": "^2.10.1",
     "isomorphic-fetch": "^2.2.1",
-    "shopify-buy": "^2.6.1"
+    "shopify-buy": "^2.7.0"
   },
   "devDependencies": {
     "@types/consola": "^1.0.0",
-    "@types/jest": "^24.0.16",
+    "@types/jest": "^24.0.17",
     "@types/jsdom": "^12.2.4",
-    "@types/node": "^12.6.9",
-    "@types/shopify-buy": "^1.4.3",
-    "@typescript-eslint/eslint-plugin": "^1.13.0",
-    "@typescript-eslint/parser": "^1.13.0",
+    "@types/node": "^12.7.1",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
     "babel-jest": "^24.8.0",
     "eslint": "^6.1.0",
-    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.0",
