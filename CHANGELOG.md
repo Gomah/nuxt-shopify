@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.1](2019-08-27)
+
+- **deps:** update dependency shopify-buy to 2.7.1
+
 ## [1.4.0](2019-08-14)
 
 - **deps:** update dependency shopify-buy to 2.7.0
