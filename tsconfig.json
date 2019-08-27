@@ -7,7 +7,7 @@
     "outDir": "./lib",
     "skipLibCheck": true,
     "rootDir": "./src",
-    "types": ["node", "jest", "@nuxt/vue-app"],
+    "types": ["node", "jest", "@nuxt/types"],
     "esModuleInterop": true
   },
   "include": ["src/**/*.ts"],
