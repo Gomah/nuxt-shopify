@@ -1,6 +1,6 @@
-const path = require('path');
+import path from 'path';
 
-function shopifyModule(_moduleOptions) {
+function shopifyModule(_moduleOptions): void {
   const { env, shopify } = this.options;
 
   // Combine options

@@ -24,7 +24,7 @@ npm install nuxt-shopify
 
 **nuxt.config.js**
 
-```js
+```ts
 module.exports = {
   modules: ['nuxt-shopify'],
 
@@ -37,7 +37,7 @@ module.exports = {
 
 OR
 
-```js
+```ts
 module.exports = {
   modules: ['nuxt-shopify'],
 
@@ -56,7 +56,7 @@ Don't have a Storefront Access Token yet? [Get started](https://help.shopify.com
 
 **`asyncData`**
 
-```js
+```ts
 async asyncData({ $shopify, params }) {
   const product = await $shopify.product.fetch(params.id);
   return { product };
@@ -65,7 +65,7 @@ async asyncData({ $shopify, params }) {
 
 **`methods`/`created`/`mounted`/etc**
 
-```js
+```ts
 methods: {
   async fetchSomething(productId) {
     const product = await $shopify.product.fetch(productId);
@@ -76,7 +76,7 @@ methods: {
 
 ### Store actions (including `nuxtServerInit`)
 
-```js
+```ts
 // In store
 {
   actions: {
@@ -94,7 +94,7 @@ methods: {
 
 #### Fetching products
 
-```js
+```ts
 // Fetch all products in your shop
 this.$shopify.product.fetchAll().then(products => {
   // Do something with the products
@@ -112,7 +112,7 @@ this.$shopify.fetch(productId).then(product => {
 
 #### Fetching Collections
 
-```js
+```ts
 // Fetch all collections, including their products
 this.$shopify.collection.fetchAllWithProducts().then(collections => {
   // Do something with the collections
@@ -132,7 +132,7 @@ this.$shopify.collection.fetchWithProducts(collectionId).then(collection => {
 
 #### Creating a checkout
 
-```js
+```ts
 // Create an empty checkout
 this.$shopify.checkout.create().then(checkout => {
   // Do something with the checkout
@@ -142,7 +142,7 @@ this.$shopify.checkout.create().then(checkout => {
 
 #### Adding Line Items
 
-```js
+```ts
 const checkoutId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTgyMTc3ODc1OTI='; // ID of an existing checkout
 const lineItemsToAdd = [
   {
@@ -161,7 +161,7 @@ this.$shopify.checkout.addLineItems(checkoutId, lineItemsToAdd).then(checkout =>
 
 #### Updating checkout attributes
 
-```js
+```ts
 const checkoutId = 'Z2lkOi8vc2hvcGlmeS9DaGVja291dC9kMTZmM2EzMDM4Yjc4N=';
 const input = { customAttributes: [{ key: 'MyKey', value: 'MyValue' }] };
 
@@ -172,7 +172,7 @@ this.$shopify.checkout.updateAttributes(checkoutId, input).then(checkout => {
 
 #### Updating Line Items
 
-```js
+```ts
 const checkoutId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTgyMTc3ODc1OTI='; // ID of an existing checkout
 const lineItemsToUpdate = [{ id: 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc4NTc5ODkzODQ=', quantity: 2 }];
 
@@ -185,7 +185,7 @@ this.$shopify.checkout.updateLineItems(checkoutId, lineItemsToUpdate).then(check
 
 #### Removing Line Items
 
-```js
+```ts
 const checkoutId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTgyMTc3ODc1OTI='; // ID of an existing checkout
 const lineItemIdsToRemove = ['Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc4NTc5ODkzODQ='];
 
@@ -198,7 +198,7 @@ this.$shopify.checkout.removeLineItems(checkoutId, lineItemIdsToRemove).then(che
 
 #### Fetching a Checkout
 
-```js
+```ts
 const checkoutId = '2U4NWNkYzI4ZWEyOTdlOD9rZXk9MDVjMzY3Zjk3YWM0YWJjNGRhMTkwMDgwYTUzOGJmYmI=';
 
 this.$shopify.checkout.fetch(checkoutId).then(checkout => {
@@ -209,7 +209,7 @@ this.$shopify.checkout.fetch(checkoutId).then(checkout => {
 
 #### Adding a Discount
 
-```js
+```ts
 const checkoutId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTgyMTc3ODc1OTI='; // ID of an existing checkout
 const discountCode = 'best-discount-ever';
 
@@ -222,7 +222,7 @@ this.$shopify.checkout.addDiscount(checkoutId, discountCode).then(checkout => {
 
 #### Removing a Discount
 
-```js
+```ts
 const checkoutId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTgyMTc3ODc1OTI='; // ID of an existing checkout
 
 // Removes the applied discount from an existing checkout.
@@ -234,7 +234,7 @@ this.$shopify.checkout.removeDiscount(checkoutId).then(checkout => {
 
 #### Updating a Shipping Address
 
-```js
+```ts
 const checkoutId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTgyMTc3ODc1OTI='; // ID of an existing checkout
 
 const shippingAddress = {
@@ -260,7 +260,7 @@ this.$shopify.checkout.updateShippingAddress(checkoutId, shippingAddress).then(c
 
 1. Clone this repository
 2. Install dependencies using `yarn install` or `npm install`
-3. Start development server using `npm run dev`
+3. Start development server using `yarn dev` or `npm run dev`
 
 ## 📑 License
 

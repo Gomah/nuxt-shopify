@@ -1,9 +1,9 @@
-const config = require('../fixture/nuxt.config');
+const config = require('../fixture/nuxt.config.js');
 const request = require('request-promise-native');
 const { Nuxt, Builder } = require('nuxt');
 
-const url = path => `http://localhost:3000${path}`;
-const get = path => request(url(path));
+const url = (path: string): string => `http://localhost:3000${path}`;
+const get = (path: string) => request(url(path));
 
 jest.setTimeout(10000);
 
@@ -21,7 +21,7 @@ describe('Nuxt Shopify', () => {
   });
 
   test('asyncData', async () => {
-    let html = await get('/async-data');
+    const html = await get('/async-data');
 
     expect(html).toContain('Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzk4OTUyNzYwOTk=');
   });

@@ -6,16 +6,17 @@ module.exports = {
     project: './tsconfig.json',
   },
   env: {
+    browser: true,
     node: true,
     jest: true,
   },
   extends: [
-    'airbnb-base',
+    'airbnb-typescript/base',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
     'prettier/@typescript-eslint',
   ],
-  plugins: ['graphql', '@typescript-eslint'],
+  plugins: ['@typescript-eslint'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -34,8 +35,10 @@ module.exports = {
         ts: 'never',
       },
     ],
+    'global-require': 0,
   },
   settings: {
+    'import/core-modules': ['@nuxt/types'],
     'import/resolver': {
       node: { extensions: ['.js', '.mjs'] },
     },

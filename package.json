@@ -26,12 +26,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "nuxt test/fixture",
-    "test": "NODE_ENV=test jest",
     "prepublishOnly": "yarn build",
     "test:system": "NODE_ENV=test jest --testRegex \"/test/system/(.+)\\.test\\.ts$\"",
     "build": "tsc",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "watch": "tsc --watch",
+    "test": "yarn test:lint && NODE_ENV=test jest",
     "test:lint": "eslint --ext .js,.ts, src/"
   },
   "dependencies": {
@@ -41,7 +41,9 @@
     "shopify-buy": "^2.7.1"
   },
   "devDependencies": {
-    "@nuxt/types": "^0.2.5",
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "@nuxt/types": "^0.2.6",
     "@types/consola": "^1.0.0",
     "@types/jest": "^24.0.18",
     "@types/jsdom": "^12.2.4",
@@ -49,15 +51,18 @@
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
     "babel-jest": "^24.9.0",
-    "eslint": "^6.2.2",
-    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-typescript": "^4.0.1",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.5",
     "jest": "^24.9.0",
     "nuxt": "^2.9.2",
     "prettier": "^1.18.2",
-    "standard-version": "^5.0.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "standard-version": "^7.0.0",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.3.0",
     "typescript": "^3.6.2"

@@ -2,13 +2,14 @@
   "compilerOptions": {
     "target": "es2015",
     "module": "es2015",
+    "moduleResolution": "node",
     "lib": ["dom", "esnext", "esnext.asynciterable"],
     "allowJs": true,
     "outDir": "./lib",
     "skipLibCheck": true,
     "rootDir": "./src",
-    "types": ["node", "jest", "@nuxt/types"],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": ["@types/node", "@types/jest", "@nuxt/types"]
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]

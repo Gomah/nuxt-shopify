@@ -15,6 +15,7 @@ declare module '@nuxt/types' {
   interface Context {
     $sentry: ShopifyBuy.Client;
   }
+
   interface NuxtAppOptions {
     $sentry: ShopifyBuy.Client;
   }
