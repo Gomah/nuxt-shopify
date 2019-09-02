@@ -5,6 +5,7 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![code style: prettier](https://img.shields.io/badge/code_style-airbnb/prettier-FF5A5F.svg?style=flat-square)](https://github.com/airbnb/javascript)
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGomah%2Fnuxt-shopify.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FGomah%2Fnuxt-shopify?ref=badge_shield)
 
 > Easy <a href="https://github.com/Shopify/js-buy-sdk">Shopify Buy</a> client integration with Nuxt.js
 
@@ -274,3 +275,6 @@ this.$shopify.checkout.updateShippingAddress(checkoutId, shippingAddress).then(c
 [npm-downloads-href]: https://npmjs.com/package/nuxt-shopify
 [david-dm-src]: https://david-dm.org/gomah/nuxt-shopify/status.svg?style=flat-square
 [david-dm-href]: https://david-dm.org/gomah/nuxt-shopify
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGomah%2Fnuxt-shopify.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FGomah%2Fnuxt-shopify?ref=badge_large)
