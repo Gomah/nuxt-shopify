@@ -49,7 +49,7 @@
     "@types/jsdom": "^12.2.4",
     "@types/node": "^12.7.4",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
-    "@typescript-eslint/parser": "^2.1.0",
+    "@typescript-eslint/parser": "^2.2.0",
     "babel-jest": "^24.9.0",
     "eslint": "^6.3.0",
     "eslint-config-airbnb-typescript": "^4.0.1",
