@@ -1,0 +1,12 @@
+{
+  "types": [
+    { "type": "feat", "section": "Features" },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "chore", "section": "Dependencies" },
+    { "type": "docs", "section": "Documentation" },
+    { "type": "style", "section": "Styling" },
+    { "type": "refactor", "section": "Internal" },
+    { "type": "perf", "section": "Internal" },
+    { "type": "test", "section": "Internal"}
+  ]
+}
