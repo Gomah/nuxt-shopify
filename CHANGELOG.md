@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.3](https://github.com/Gomah/nuxt-shopify/compare/v1.4.2...v1.4.3) (2019-09-30)
+
+
+### Bug Fixes
+
+* **types:**  context types ([7607fcb](https://github.com/Gomah/nuxt-shopify/commit/7607fcb))
+
+
+### Chore
+
+* **deps:** upgrade dependencies ([4e862e7](https://github.com/Gomah/nuxt-shopify/commit/4e862e7))
+* **deps-dev:** bump @nuxt/types from 0.2.14 to 0.2.15 ([c5618a5](https://github.com/Gomah/nuxt-shopify/commit/c5618a5))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([57730b3](https://github.com/Gomah/nuxt-shopify/commit/57730b3))
+* **deps-dev:** bump @typescript-eslint/parser from 2.3.0 to 2.3.1 ([f8e9efa](https://github.com/Gomah/nuxt-shopify/commit/f8e9efa))
+
 ### [1.4.2](https://github.com/Gomah/nuxt-shopify/compare/v1.0.3...v1.4.2) (2019-09-21)
 
 
