@@ -6,18 +6,18 @@ declare module '@nuxt/vue-app' {
   }
 
   interface NuxtAppOptions {
-    $sentry: ShopifyBuy.Client;
+    $shopify: ShopifyBuy.Client;
   }
 }
 
 // Nuxt 2.9+
 declare module '@nuxt/types' {
   interface Context {
-    $sentry: ShopifyBuy.Client;
+    $shopify: ShopifyBuy.Client;
   }
 
   interface NuxtAppOptions {
-    $sentry: ShopifyBuy.Client;
+    $shopify: ShopifyBuy.Client;
   }
 }
 
