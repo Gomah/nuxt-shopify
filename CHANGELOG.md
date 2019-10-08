@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/Gomah/nuxt-shopify/compare/v1.4.3...v1.5.0) (2019-10-08)
+
+
+### Chore
+
+* **deps:** bump shopify-buy from 2.7.2 to 2.8.0 ([337375a](https://github.com/Gomah/nuxt-shopify/commit/337375a))
+* **deps-dev:** bump @nuxt/types from 0.2.15 to 0.3.0 ([58632f5](https://github.com/Gomah/nuxt-shopify/commit/58632f5))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([6fa93c9](https://github.com/Gomah/nuxt-shopify/commit/6fa93c9))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([b574bbf](https://github.com/Gomah/nuxt-shopify/commit/b574bbf))
+* **deps-dev:** bump @typescript-eslint/parser from 2.3.1 to 2.3.2 ([b73b87d](https://github.com/Gomah/nuxt-shopify/commit/b73b87d))
+* **deps-dev:** bump @typescript-eslint/parser from 2.3.2 to 2.3.3 ([adbc6a7](https://github.com/Gomah/nuxt-shopify/commit/adbc6a7))
+* **deps-dev:** bump eslint from 6.5.0 to 6.5.1 ([f0c0437](https://github.com/Gomah/nuxt-shopify/commit/f0c0437))
+* **deps-dev:** bump eslint-config-prettier from 6.3.0 to 6.4.0 ([bdfc957](https://github.com/Gomah/nuxt-shopify/commit/bdfc957))
+* **deps-dev:** bump husky from 3.0.7 to 3.0.8 ([c3dc612](https://github.com/Gomah/nuxt-shopify/commit/c3dc612))
+* **deps-dev:** bump nuxt from 2.9.2 to 2.10.0 ([17a0f00](https://github.com/Gomah/nuxt-shopify/commit/17a0f00))
+
 ### [1.4.3](https://github.com/Gomah/nuxt-shopify/compare/v1.4.2...v1.4.3) (2019-09-30)
 
 
