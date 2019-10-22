@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/Gomah/nuxt-shopify/compare/v1.5.0...v1.5.1) (2019-10-22)
+
+
+### Chore
+
+* **deps-dev:** bump @nuxt/types from 0.3.0 to 0.3.1 ([fe22906](https://github.com/Gomah/nuxt-shopify/commit/fe22906))
+* **deps-dev:** bump @nuxt/types from 0.3.1 to 0.3.2 ([286370b](https://github.com/Gomah/nuxt-shopify/commit/286370b))
+* **deps-dev:** bump @types/jest from 24.0.18 to 24.0.19 ([79f0ed3](https://github.com/Gomah/nuxt-shopify/commit/79f0ed3))
+* **deps-dev:** bump @types/node from 12.7.11 to 12.7.12 ([b51b420](https://github.com/Gomah/nuxt-shopify/commit/b51b420))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([e34fb9d](https://github.com/Gomah/nuxt-shopify/commit/e34fb9d))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([eb74f74](https://github.com/Gomah/nuxt-shopify/commit/eb74f74))
+* **deps-dev:** bump @typescript-eslint/parser from 2.3.3 to 2.4.0 ([9172d79](https://github.com/Gomah/nuxt-shopify/commit/9172d79))
+* **deps-dev:** bump @typescript-eslint/parser from 2.4.0 to 2.5.0 ([6f5c0f4](https://github.com/Gomah/nuxt-shopify/commit/6f5c0f4))
+* **deps-dev:** bump husky from 3.0.8 to 3.0.9 ([936ee61](https://github.com/Gomah/nuxt-shopify/commit/936ee61))
+* **deps-dev:** bump nuxt from 2.10.0 to 2.10.1 ([a7733b4](https://github.com/Gomah/nuxt-shopify/commit/a7733b4))
+* **deps-dev:** bump typescript from 3.6.3 to 3.6.4 ([7041727](https://github.com/Gomah/nuxt-shopify/commit/7041727))
+* **types:** add typings in package.json ([8bf5120](https://github.com/Gomah/nuxt-shopify/commit/8bf5120))
+
 ## [1.5.0](https://github.com/Gomah/nuxt-shopify/compare/v1.4.3...v1.5.0) (2019-10-08)
 
 
