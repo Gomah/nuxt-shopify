@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/Gomah/nuxt-shopify/compare/v1.5.1...v1.6.0) (2019-10-28)
+
+
+### Chore
+
+* **deps-dev:** bump @types/node from 12.11.2 to 12.11.7 ([efc7f1a](https://github.com/Gomah/nuxt-shopify/commit/efc7f1a))
+* **deps-dev:** bump eslint-config-airbnb-typescript ([c68993f](https://github.com/Gomah/nuxt-shopify/commit/c68993f))
+* **deps-dev:** bump nuxt from 2.10.1 to 2.10.2 ([8cc13e0](https://github.com/Gomah/nuxt-shopify/commit/8cc13e0))
+
+
+### Features
+
+* **module:** support Shopify Unoptimized version ([a610634](https://github.com/Gomah/nuxt-shopify/commit/a610634))
+
 ### [1.5.1](https://github.com/Gomah/nuxt-shopify/compare/v1.5.0...v1.5.1) (2019-10-22)
 
 
