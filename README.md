@@ -30,8 +30,22 @@ module.exports = {
   modules: ['nuxt-shopify'],
 
   shopify: {
-    domain: 'your-shop-name.myshopify.com', // your shopify domain
-    storefrontAccessToken: 'your-storefront-access-token', // your shopify storefront access token
+    /**
+     * Your shopify domain
+     */
+    domain: 'your-shop-name.myshopify.com',
+
+    /**
+     * Your shopify storefront access token
+     */
+    storefrontAccessToken: 'your-storefront-access-token',
+
+    /**
+     * This will be larger than the optimized version, as it will contain all fields that are available in the
+     * Storefront API. (https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference)
+     * This should only be used when you need to add custom queries to supplement the JS Buy SDK queries.
+     */
+    unoptimized: false,
   },
 };
 ```
@@ -275,6 +289,5 @@ this.$shopify.checkout.updateShippingAddress(checkoutId, shippingAddress).then(c
 [npm-downloads-href]: https://npmjs.com/package/nuxt-shopify
 [david-dm-src]: https://david-dm.org/gomah/nuxt-shopify/status.svg?style=flat-square
 [david-dm-href]: https://david-dm.org/gomah/nuxt-shopify
-
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGomah%2Fnuxt-shopify.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FGomah%2Fnuxt-shopify?ref=badge_large)

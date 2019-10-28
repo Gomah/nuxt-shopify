@@ -1,4 +1,6 @@
 import ShopifyBuy from 'shopify-buy';
+// @ts-ignore
+import ShopifyModule from '<%= options.shopifyPath %>';
 import { Context } from '@nuxt/types';
 
 if (process.server || (process.client && !window.fetch)) {
@@ -14,7 +16,7 @@ export default async (
     storefrontAccessToken: '<%= options.storefrontAccessToken %>',
   };
 
-  const client: ShopifyBuy.Client = ShopifyBuy.buildClient(config);
+  const client: ShopifyBuy.Client = ShopifyModule.buildClient(config);
 
   // Inject shopify to the context as $shopify
   ctx.$shopify = client;

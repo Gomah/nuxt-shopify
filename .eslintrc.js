@@ -18,6 +18,7 @@ module.exports = {
   ],
   plugins: ['@typescript-eslint'],
   rules: {
+    '@typescript-eslint/ban-ts-ignore': 0,
     'prettier/prettier': [
       'error',
       {
@@ -38,7 +39,7 @@ module.exports = {
     'global-require': 0,
   },
   settings: {
-    'import/core-modules': ['@nuxt/types'],
+    'import/core-modules': ['@nuxt/types', '<%= options.shopifyPath %>'],
     'import/resolver': {
       node: { extensions: ['.js', '.mjs'] },
     },

@@ -13,6 +13,11 @@ function shopifyModule(_moduleOptions): void {
     ..._moduleOptions,
   };
 
+  // Specify shopify-buy path
+  Object.assign(moduleOptions, {
+    shopifyPath: moduleOptions.unoptimized ? 'shopify-buy/index.unoptimized.umd' : 'shopify-buy',
+  });
+
   if (!moduleOptions.domain || !moduleOptions.storefrontAccessToken) {
     throw new Error(`[Shopify module] domain & storefrontAccessToken must be provided.`);
   }

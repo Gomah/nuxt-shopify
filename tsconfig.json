@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "rootDir": "./src",
     "esModuleInterop": true,
-    "types": ["@types/node", "@types/jest", "@nuxt/types"]
+    "types": ["@types/node", "@types/jest", "@nuxt/types", "@types/shopify-buy"]
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
