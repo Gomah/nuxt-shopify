@@ -65,7 +65,7 @@
     "request-promise-native": "^1.0.8",
     "standard-version": "^7.0.0",
     "ts-jest": "^24.1.0",
-    "ts-node": "^8.4.1",
+    "ts-node": "^8.5.0",
     "typescript": "^3.6.4"
   }
 }
