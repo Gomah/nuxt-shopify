@@ -60,7 +60,7 @@
     "husky": "^3.0.9",
     "jest": "^24.9.0",
     "nuxt": "^2.10.2",
-    "prettier": "^1.18.2",
+    "prettier": "^1.19.1",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.8",
     "standard-version": "^7.0.0",
