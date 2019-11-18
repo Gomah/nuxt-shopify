@@ -39,7 +39,7 @@
     "@types/shopify-buy": "^1.4.3",
     "consola": "^2.11.0",
     "isomorphic-fetch": "^2.2.1",
-    "shopify-buy": "^2.8.0"
+    "shopify-buy": "^2.8.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
