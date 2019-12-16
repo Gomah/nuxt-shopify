@@ -1336,10 +1336,10 @@
     serve-static "^1.14.1"
     server-destroy "^1.0.1"
 
-"@nuxt/types@^0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-0.5.4.tgz#759526e55c3f7d4fe9eaa51fc1c80dba92c46294"
-  integrity sha512-Ofuw2YowLrha1lyo1eKQaJJVQ3FkVVlwu1R1iGERGS24ZSGg6e99jgfMLUVynRPN9GclBJsHYPiPFAmTUWQQ3w==
+"@nuxt/types@^0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-0.5.6.tgz#f982e64b33f9be3d5e18d0d4d8b7252f26f5eec5"
+  integrity sha512-TudjS1TP9F4+4DencHbNNNmz7xBIaSLE0sMw6uWwEU/1plJKsbGsCyOo+nHhgas/eyYXUQxs7lHR1Q/bjWfZ+A==
   dependencies:
     "@types/autoprefixer" "^9.6.1"
     "@types/babel__core" "^7.1.3"
@@ -1349,7 +1349,7 @@
     "@types/file-loader" "^4.2.0"
     "@types/html-minifier" "^3.5.3"
     "@types/less" "^3.0.1"
-    "@types/node" "^12.12.14"
+    "@types/node" "^12.12.17"
     "@types/node-sass" "^4.11.0"
     "@types/optimize-css-assets-webpack-plugin" "^5.0.1"
     "@types/pug" "^2.0.4"
@@ -1358,7 +1358,7 @@
     "@types/webpack" "^4.41.0"
     "@types/webpack-bundle-analyzer" "^2.13.3"
     "@types/webpack-dev-middleware" "^2.0.3"
-    "@types/webpack-hot-middleware" "^2.16.5"
+    "@types/webpack-hot-middleware" "^2.25.0"
 
 "@nuxt/utils@2.10.2":
   version "2.10.2"
@@ -1656,7 +1656,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^12.0.2", "@types/node@^12.12.14", "@types/node@^12.12.18":
+"@types/node@*", "@types/node@^12.0.2", "@types/node@^12.12.17", "@types/node@^12.12.18":
   version "12.12.18"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.18.tgz#8d16634797d63c2af5bc647ce879f8de20b56469"
   integrity sha512-DBkZuIMFuAfjJHiunyRc+aNvmXYNwV1IPMgGKGlwCp6zh6MKrVtmvjSWK/axWcD25KJffkXgkfvFra8ndenXAw==
@@ -1763,10 +1763,10 @@
     "@types/webpack" "*"
     loglevel "^1.6.2"
 
-"@types/webpack-hot-middleware@^2.16.5":
-  version "2.16.5"
-  resolved "https://registry.yarnpkg.com/@types/webpack-hot-middleware/-/webpack-hot-middleware-2.16.5.tgz#5271eada42f34670a7ae79ddb6f1c419a19c985f"
-  integrity sha512-41qSQeyRGZkWSi366jMQVsLo5fdLT8EgmvHNoBwcCtwZcHrQk6An6tD+ZfC0zMdNHzVEFlzQvT2mTte8zDxqNw==
+"@types/webpack-hot-middleware@^2.25.0":
+  version "2.25.0"
+  resolved "https://registry.yarnpkg.com/@types/webpack-hot-middleware/-/webpack-hot-middleware-2.25.0.tgz#ceb1e0fb43cbb9ec79c4a856c2060f161e12bf30"
+  integrity sha512-J+Zk7c99pMnPcxWpPY7CEdc4jhPFX1SVPrqXTzinoF8ea+OmIiHa+oOdVI7leMQFGZ6G9e9Yo1uNPhLVr/R8Uw==
   dependencies:
     "@types/connect" "*"
     "@types/webpack" "*"
