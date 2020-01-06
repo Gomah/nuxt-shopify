@@ -1297,10 +1297,10 @@
     serve-static "^1.14.1"
     server-destroy "^1.0.1"
 
-"@nuxt/types@^0.5.9":
-  version "0.5.9"
-  resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-0.5.9.tgz#568ddc9f1c1869c4321d070e544e8c84c4794825"
-  integrity sha512-CLpAxcI31ZZjrCiHZLk27k2VnMRa6ipXkrMegcZVkG2i3tnycErq+ydnlS2EPxPG0WNDYQXli192UEBKT12Dfw==
+"@nuxt/types@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-0.6.0.tgz#f127c31d8c86cfbe522654da91704a98a2cb0fb3"
+  integrity sha512-LJF95jLe4Ir/mrKJ5d2QC+t89xnXVM2EWagXx8YDM32RObIAHEU8jUQLPy4uvx1w3APDOMAtByG5V3vlRo7HwQ==
   dependencies:
     "@types/autoprefixer" "^9.6.1"
     "@types/babel__core" "^7.1.3"
@@ -1316,7 +1316,7 @@
     "@types/pug" "^2.0.4"
     "@types/serve-static" "^1.13.3"
     "@types/terser-webpack-plugin" "^2.2.0"
-    "@types/webpack" "^4.41.0"
+    "@types/webpack" "^4.41.1"
     "@types/webpack-bundle-analyzer" "^2.13.3"
     "@types/webpack-dev-middleware" "^2.0.3"
     "@types/webpack-hot-middleware" "^2.25.0"
@@ -1751,10 +1751,10 @@
     "@types/source-list-map" "*"
     source-map "^0.6.1"
 
-"@types/webpack@*", "@types/webpack@^4.41.0":
-  version "4.41.0"
-  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.0.tgz#b813a044d8b0dec7dfcd7622fdbe327bde06eb9a"
-  integrity sha512-tWkdf9nO0zFgAY/EumUKwrDUhraHKDqCPhwfFR/R8l0qnPdgb9le0Gzhvb7uzVpouuDGBgiE//ZdY+5jcZy2TA==
+"@types/webpack@*", "@types/webpack@^4.41.1":
+  version "4.41.1"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.1.tgz#571f0e137ce698710dd2637f7d222811eb83e274"
+  integrity sha512-n9fP8UrMxOi1wiM3oM+vMZHMJJ7WoQohqd63C20cmKOFkNEy9Q8hyZyDR6PWdvSYt3V3A7cwDq/kWxHlRYYZEg==
   dependencies:
     "@types/anymatch" "*"
     "@types/node" "*"
