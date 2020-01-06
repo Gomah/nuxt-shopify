@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@types/shopify-buy": "^1.4.3",
-    "consola": "^2.11.2",
+    "consola": "^2.11.3",
     "isomorphic-fetch": "^2.2.1",
     "shopify-buy": "^2.8.1"
   },
