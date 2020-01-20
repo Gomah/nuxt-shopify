@@ -45,7 +45,7 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@nuxt/types": "^0.6.1",
     "@types/consola": "^2.2.5",
-    "@types/jest": "^24.0.25",
+    "@types/jest": "^24.9.0",
     "@types/jsdom": "^12.2.4",
     "@types/node": "^13.1.6",
     "@typescript-eslint/eslint-plugin": "^2.17.0",
