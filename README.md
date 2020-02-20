@@ -119,7 +119,7 @@ this.$shopify.product.fetchAll().then(products => {
 // Fetch a single product by ID
 const productId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc4NTc5ODkzODQ=';
 
-this.$shopify.fetch(productId).then(product => {
+this.$shopify.product.fetch(productId).then(product => {
   // Do something with the product
   console.log(product);
 });
