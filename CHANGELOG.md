@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/Gomah/nuxt-shopify/compare/v1.7.1...v1.8.0) (2020-02-27)
+
+
+### Features
+
+* update types & use isomorphic-unfetch ([96818a6](https://github.com/Gomah/nuxt-shopify/commit/96818a66aeec439434b7787e887054cf5a775bba))
+
+
+### Chore
+
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([7ef232d](https://github.com/Gomah/nuxt-shopify/commit/7ef232de86f31b0193d8b3988dadc0d69b6d59c5))
+* **deps-dev:** bump @typescript-eslint/parser from 2.20.0 to 2.21.0 ([750266d](https://github.com/Gomah/nuxt-shopify/commit/750266d8118efe78428afa7b7d9fa45b36a4dc4c))
+
+
+### Internal
+
+* add nuxtServerInit case ([0eaa666](https://github.com/Gomah/nuxt-shopify/commit/0eaa666948c7b00f6441c8928e53600c393def75))
+
 ### [1.7.1](https://github.com/Gomah/nuxt-shopify/compare/v1.7.0...v1.7.1) (2020-02-23)
 
 
