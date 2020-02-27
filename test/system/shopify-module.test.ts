@@ -26,6 +26,11 @@ describe('Nuxt Shopify', () => {
     expect(html).toContain('Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzk4OTUyNzYwOTk=');
   });
 
+  test('nuxtServerInit', async () => {
+    const html = await get('/nuxt-server-init');
+    expect(html).toContain('Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzk4OTUyNzYwOTk=');
+  });
+
   test('mounted', async () => {
     const window = await nuxt.renderAndGetWindow(url('/mounted'));
 
