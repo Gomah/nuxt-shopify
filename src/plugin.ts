@@ -2,10 +2,7 @@ import ShopifyBuy from 'shopify-buy';
 // @ts-ignore
 import ShopifyModule from '<%= options.shopifyPath %>';
 import { Context } from '@nuxt/types';
-
-if (process.server || (process.client && !window.fetch)) {
-  require('isomorphic-fetch');
-}
+import 'isomorphic-unfetch';
 
 export default async (
   ctx: Context & { $shopify: ShopifyBuy.Client },
