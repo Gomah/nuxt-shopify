@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.1](https://github.com/Gomah/nuxt-shopify/compare/v1.8.0...v1.8.1) (2020-03-23)
+
+
+### Chore
+
+* **deps:** [security] bump acorn from 6.4.0 to 6.4.1 ([18b2c56](https://github.com/Gomah/nuxt-shopify/commit/18b2c56c2576e626b87b2702ae903b894ed312c4))
+* **deps:** bump shopify-buy from 2.9.1 to 2.9.2 ([5fe4a5b](https://github.com/Gomah/nuxt-shopify/commit/5fe4a5ba3134c11c6a4cba2eaeec14310e80a807))
+* **deps-dev:** bump @nuxt/types from 0.6.3 to 0.6.4 ([bd2fe2f](https://github.com/Gomah/nuxt-shopify/commit/bd2fe2f5ff853b376e5f624e49852af2a41f75a3))
+* **deps-dev:** bump @types/jest from 25.1.3 to 25.1.4 ([7ab2f77](https://github.com/Gomah/nuxt-shopify/commit/7ab2f7723e89a7ab6f8fe78d76300d1c2aee5906))
+* **deps-dev:** bump @types/jsdom from 16.1.0 to 16.1.1 ([c65cc49](https://github.com/Gomah/nuxt-shopify/commit/c65cc495b68a7c030c720642ab81644233b12e22))
+* **deps-dev:** bump @types/node from 13.7.6 to 13.7.7 ([997c959](https://github.com/Gomah/nuxt-shopify/commit/997c9591745155076b72409f78e4c3ee7f2bd5e9))
+* **deps-dev:** bump @types/node from 13.7.7 to 13.9.1 ([c11090a](https://github.com/Gomah/nuxt-shopify/commit/c11090a88b507636fcb92f9ae3eae0d8ba90fe60))
+* **deps-dev:** bump @types/node from 13.9.1 to 13.9.3 ([a55415a](https://github.com/Gomah/nuxt-shopify/commit/a55415abb1dd518f5660b757cae653a7d571b56d))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([660bf76](https://github.com/Gomah/nuxt-shopify/commit/660bf76ba0739d55df47aed37633e2dc66c16cc3))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([e31627d](https://github.com/Gomah/nuxt-shopify/commit/e31627dd780e282cad3658c1af2dbb8489e59065))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([14084bf](https://github.com/Gomah/nuxt-shopify/commit/14084bf4393ec142730595feb48939605e8e7264))
+* **deps-dev:** bump @typescript-eslint/parser from 2.21.0 to 2.22.0 ([a20b6f8](https://github.com/Gomah/nuxt-shopify/commit/a20b6f88f3e8b2faf978d99e8e0c9a49b390ffdd))
+* **deps-dev:** bump @typescript-eslint/parser from 2.22.0 to 2.24.0 ([f2276bb](https://github.com/Gomah/nuxt-shopify/commit/f2276bb43e27b651f84393b88e35e5913d7aaee5))
+* **deps-dev:** bump @typescript-eslint/parser from 2.24.0 to 2.25.0 ([364f357](https://github.com/Gomah/nuxt-shopify/commit/364f357f36a7a16f2da413d03963a69bf16702e8))
+* **deps-dev:** bump eslint-config-airbnb-typescript ([794e860](https://github.com/Gomah/nuxt-shopify/commit/794e86078c711ec6425a74d572dfae049ad4b055))
+* **deps-dev:** bump eslint-config-prettier from 6.10.0 to 6.10.1 ([48f0e60](https://github.com/Gomah/nuxt-shopify/commit/48f0e60fa9d5c92c9c0436fb2f3d2af16715a0d9))
+* **deps-dev:** bump nuxt from 2.11.0 to 2.12.0 ([f3d6ba8](https://github.com/Gomah/nuxt-shopify/commit/f3d6ba87d4a311f34e0c721e518b927fa7b74297))
+* **deps-dev:** bump prettier from 1.19.1 to 2.0.1 ([6364fea](https://github.com/Gomah/nuxt-shopify/commit/6364fea1418681daa8808b5c4d65305c7ab9f062))
+* **deps-dev:** bump ts-node from 8.6.2 to 8.8.1 ([eba5440](https://github.com/Gomah/nuxt-shopify/commit/eba544026a51171a0476f777a681a47c69b446e0))
+* **deps-dev:** bump typescript from 3.8.2 to 3.8.3 ([5f2fdaf](https://github.com/Gomah/nuxt-shopify/commit/5f2fdaf8d231a19c48a7e2ef549d02feb7f61cdc))
+
 ## [1.8.0](https://github.com/Gomah/nuxt-shopify/compare/v1.7.1...v1.8.0) (2020-02-27)
 
 
