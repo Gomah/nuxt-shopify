@@ -82,9 +82,8 @@ async asyncData({ $shopify, params }) {
 
 ```ts
 methods: {
-  async fetchSomething(productId) {
-    const product = await $shopify.product.fetch(productId);
-    this.product = product;
+  async fetchProduct(productId) {
+    this.product = await this.$shopify.product.fetch(productId);
   }
 }
 ```
