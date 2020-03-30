@@ -57,7 +57,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.3",
-    "jest": "^25.1.0",
+    "jest": "^25.2.4",
     "nuxt": "^2.12.1",
     "prettier": "^2.0.2",
     "request": "^2.88.2",
