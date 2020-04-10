@@ -1,3 +1,4 @@
+import Vue from 'vue';
 import ShopifyBuy from 'shopify-buy';
 // @ts-ignore
 import ShopifyModule from '<%= options.shopifyPath %>';
@@ -14,6 +15,15 @@ export default async (
   };
 
   const client: ShopifyBuy.Client = ShopifyModule.buildClient(config);
+
+  Object.assign(client, {
+    buildClient: (options, fetchClient) => {
+      const newClient = ShopifyModule.buildClient(options, fetchClient);
+      ctx.$shopify = newClient;
+      ctx.app.$shopify = newClient;
+      inject('shopify', newClient);
+    },
+  });
 
   // Inject shopify to the context as $shopify
   ctx.$shopify = client;
