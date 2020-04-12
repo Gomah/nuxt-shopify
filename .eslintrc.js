@@ -39,7 +39,7 @@ module.exports = {
     'global-require': 0,
   },
   settings: {
-    'import/core-modules': ['@nuxt/types', '<%= options.shopifyPath %>'],
+    'import/core-modules': ['vue', '@nuxt/types', '<%= options.shopifyPath %>'],
     'import/resolver': {
       node: { extensions: ['.js', '.mjs'] },
     },
