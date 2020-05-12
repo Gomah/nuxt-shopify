@@ -274,7 +274,8 @@ this.$shopify.checkout.updateShippingAddress(checkoutId, shippingAddress).then(c
 
 1. Clone this repository
 2. Install dependencies using `yarn install` or `npm install`
-3. Start development server using `yarn dev` or `npm run dev`
+3. Build the module using `yarn build` or `npm run build`
+4. Start development server using `yarn dev` or `npm run dev`
 
 ## 📑 License
 
