@@ -9814,10 +9814,10 @@ shellwords@^0.1.1:
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha512-vFwSUfQvqybiICwZY5+DAWIPLKsWO31Q91JSKl3UYv+K5c2QRPzn0qzec6QPu1Qc9eHYItiP3NdJqNVqetYAww==
 
-shopify-buy@2.10.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/shopify-buy/-/shopify-buy-2.10.0.tgz#ed5e434e6f9b11de6626f5dfe8dc6a01a6f6a607"
-  integrity sha512-ZusCW1qxnlXrEqeeo3OoK7DbkAhppSrzhHHtDbOMpZXj91WEPZr8vQG9+IbeQXq/j+H3/wpzOJ+kF3WGrsDB7w==
+shopify-buy@2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/shopify-buy/-/shopify-buy-2.11.0.tgz#0f7cb52741395e4ae778c336f32ddf3fe67c2f35"
+  integrity sha512-bGjS1b/VCPvCjazSstlKwgLtK1WBotWom06/12loja8yfo/cWkLuJsakBbQe1uEIDiOLhKaR0M0CAXZFheYDug==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
