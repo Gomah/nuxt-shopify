@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.10.2](https://github.com/Gomah/nuxt-shopify/compare/v1.10.1...v1.10.2) (2020-07-14)
+
+
+### Chore
+
+* **deps:** bump shopify-buy from 2.10.0 to 2.11.0 ([0ae1bd2](https://github.com/Gomah/nuxt-shopify/commit/0ae1bd2d441d2788a7a7b7bca39588fa40138cd0))
+* **deps-dev:** bump @commitlint/config-conventional ([e28a32a](https://github.com/Gomah/nuxt-shopify/commit/e28a32a7e06f7fb8deb2543da0ca6c6c6f08c37f))
+* **deps-dev:** bump @nuxt/types from 2.13.0 to 2.13.2 ([9989b63](https://github.com/Gomah/nuxt-shopify/commit/9989b6356a6ed621b0f2cd57e566b11fb48ac16a))
+* **deps-dev:** bump @nuxt/types from 2.13.2 to 2.13.3 ([50c5bfa](https://github.com/Gomah/nuxt-shopify/commit/50c5bfa8f1215d206e7b8851694a2bde39522c93))
+* **deps-dev:** bump @types/jest from 26.0.0 to 26.0.3 ([37501df](https://github.com/Gomah/nuxt-shopify/commit/37501dfcc8f5ad4d51afe290999574c4a71c0172))
+* **deps-dev:** bump @types/jest from 26.0.3 to 26.0.4 ([c527aa3](https://github.com/Gomah/nuxt-shopify/commit/c527aa30994d7c99b7f93275cad1bd4fe861cc84))
+* **deps-dev:** bump @types/node from 14.0.13 to 14.0.14 ([62d935b](https://github.com/Gomah/nuxt-shopify/commit/62d935b22714213c2c27df5aaaa8f5665da59dc9))
+* **deps-dev:** bump @types/node from 14.0.14 to 14.0.23 ([fbc82bd](https://github.com/Gomah/nuxt-shopify/commit/fbc82bd99d7cdc72c042701931f016cac91352b4))
+* **deps-dev:** bump babel-jest from 26.0.1 to 26.1.0 ([c5a14d1](https://github.com/Gomah/nuxt-shopify/commit/c5a14d16b4d35c3b19b2df1f5e37d8a01d89a89b))
+* **deps-dev:** bump eslint-plugin-import from 2.21.2 to 2.22.0 ([26f42a6](https://github.com/Gomah/nuxt-shopify/commit/26f42a6d199a1b9db7022f1f63ecd2c730efce66))
+* **deps-dev:** bump standard-version from 8.0.0 to 8.0.1 ([4900d97](https://github.com/Gomah/nuxt-shopify/commit/4900d9748681541eca98aa9bbd2c8307dd06083d))
+* **deps-dev:** bump typescript from 3.9.5 to 3.9.6 ([507a1a5](https://github.com/Gomah/nuxt-shopify/commit/507a1a53f3d83393f0f995c974612025ab12541d))
+
 ### [1.10.1](https://github.com/Gomah/nuxt-shopify/compare/v1.10.0...v1.10.1) (2020-06-28)
 
 
