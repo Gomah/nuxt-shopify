@@ -1,4 +1,3 @@
-import Vue from 'vue';
 import ShopifyBuy from 'shopify-buy';
 // @ts-ignore
 import ShopifyModule from '<%= options.shopifyPath %>';
@@ -9,9 +8,10 @@ export default async (
   ctx: Context & { $shopify: ShopifyBuy.Client },
   inject: (name: string, value: unknown) => void
 ): Promise<void> => {
-  const config: ShopifyBuy.Config = {
+  const config: ShopifyBuy.Config & { language: string } = {
     domain: '<%= options.domain %>',
     storefrontAccessToken: '<%= options.storefrontAccessToken %>',
+    language: '<%= options.language %>',
   };
 
   const client: ShopifyBuy.Client = ShopifyModule.buildClient(config);
