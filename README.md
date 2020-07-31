@@ -46,6 +46,11 @@ module.exports = {
      * This should only be used when you need to add custom queries to supplement the JS Buy SDK queries.
      */
     unoptimized: false,
+    
+    /**
+     * Set language to return translated content (optional)
+     */
+    language: 'ja-JP',
   },
 };
 ```
