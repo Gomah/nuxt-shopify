@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.10.3](https://github.com/Gomah/nuxt-shopify/compare/v1.10.2...v1.10.3) (2020-07-31)
+
+
+### Bug Fixes
+
+* support language when building shopify client, closes [#313](https://github.com/Gomah/nuxt-shopify/issues/313) ([261c755](https://github.com/Gomah/nuxt-shopify/commit/261c755fe1acb961d77c3ba53bd12b467e423589))
+
+
+### Chore
+
+* **deps:** [security] bump elliptic from 6.5.2 to 6.5.3 ([c75519b](https://github.com/Gomah/nuxt-shopify/commit/c75519b85e2ef84a22b0a65cd6c634071d412302))
+* **deps-dev:** bump @nuxt/types from 2.13.3 to 2.14.0 ([dbb3061](https://github.com/Gomah/nuxt-shopify/commit/dbb30619322930ca8fc9efc8d6fa44077a0ad345))
+* **deps-dev:** bump @types/jest from 26.0.4 to 26.0.5 ([c3c328d](https://github.com/Gomah/nuxt-shopify/commit/c3c328db48d6ed59f36500db984183260dd734e2))
+* **deps-dev:** bump @types/jest from 26.0.5 to 26.0.7 ([f14c06e](https://github.com/Gomah/nuxt-shopify/commit/f14c06e829ddbc811f5da8ae9919a4d5775c1bbc))
+* **deps-dev:** bump @types/node from 14.0.23 to 14.0.26 ([1668259](https://github.com/Gomah/nuxt-shopify/commit/1668259630beb2d1f83395917c39db545e71b8ca))
+* **deps-dev:** bump request-promise-native from 1.0.8 to 1.0.9 ([21286d1](https://github.com/Gomah/nuxt-shopify/commit/21286d1e0592795fc37177c4cb3233b50af4b302))
+* **deps-dev:** bump standard-version from 8.0.1 to 8.0.2 ([aafb199](https://github.com/Gomah/nuxt-shopify/commit/aafb199d6475ef24d02c8fb4aae5d864c0937078))
+* **deps-dev:** bump typescript from 3.9.6 to 3.9.7 ([a096ca7](https://github.com/Gomah/nuxt-shopify/commit/a096ca742cf4c232d349cf417eb3bc2c8a3255bc))
+
 ### [1.10.2](https://github.com/Gomah/nuxt-shopify/compare/v1.10.1...v1.10.2) (2020-07-14)
 
 
