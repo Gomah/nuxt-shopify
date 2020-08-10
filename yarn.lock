@@ -1874,10 +1874,10 @@
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
 
-"@types/shopify-buy@^2.10.1":
-  version "2.10.1"
-  resolved "https://registry.yarnpkg.com/@types/shopify-buy/-/shopify-buy-2.10.1.tgz#95af040b72a0ebd1b670813ea3011b4621fce852"
-  integrity sha512-MajaLfHvg8rPKozf1DQc8T5AxT2q0X4dEsJ7EzAXt8ndP3JT8jqnFW/RPjQ6+sitimd5Ro2UOQ14GZ/lLsSuvw==
+"@types/shopify-buy@^2.10.2":
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/@types/shopify-buy/-/shopify-buy-2.10.2.tgz#c2d47ab3c66af2b67e7c0b1dbea552b01b241c88"
+  integrity sha512-l+bL/kBP8/Bd3Xno7SATUtIwuEIgjVuGqkczfKV7XW14toX7uXYY/FggvuuruHNmDHMWKBub3HHUxdEQAA4lqQ==
 
 "@types/source-list-map@*":
   version "0.1.2"
