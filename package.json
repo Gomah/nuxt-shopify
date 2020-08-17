@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.2",
     "@nuxt/types": "^2.14.1",
     "@types/consola": "^2.2.5",
     "@types/jest": "^26.0.9",
