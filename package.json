@@ -41,7 +41,7 @@
     "shopify-buy": "2.11.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
+    "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^9.1.2",
     "@nuxt/types": "^2.14.4",
     "@types/consola": "^2.2.5",
