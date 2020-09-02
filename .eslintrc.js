@@ -19,6 +19,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/ban-ts-ignore': 0,
+    '@typescript-eslint/ban-ts-comment': 0,
     'prettier/prettier': [
       'error',
       {
