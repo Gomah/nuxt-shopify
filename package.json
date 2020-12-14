@@ -44,7 +44,7 @@
     "@babel/preset-env": "^7.12.10",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@nuxt/types": "^2.14.10",
+    "@nuxt/types": "^2.14.11",
     "@types/consola": "^2.2.5",
     "@types/jest": "^26.0.19",
     "@types/jsdom": "^16.2.5",
