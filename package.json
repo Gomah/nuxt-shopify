@@ -41,7 +41,7 @@
     "shopify-buy": "2.11.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-env": "^7.12.10",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@nuxt/types": "^2.14.10",
