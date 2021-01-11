@@ -36,7 +36,7 @@
     "test:lint": "eslint --ext .js,.ts, src/"
   },
   "dependencies": {
-    "@types/shopify-buy": "^2.10.3",
+    "@types/shopify-buy": "^2.10.4",
     "isomorphic-unfetch": "^3.1.0",
     "shopify-buy": "2.11.0"
   },
