@@ -1,3 +1,5 @@
+[![nuxt-shopify](https://nuxt-shopify-docs.vercel.app/preview.png)](https://nuxt-shopify-docs.vercel.app)
+
 # 🛍 Shopify Module
 
 [![npm version][npm-version-src]][npm-version-href]
@@ -46,7 +48,7 @@ module.exports = {
      * This should only be used when you need to add custom queries to supplement the JS Buy SDK queries.
      */
     unoptimized: false,
-    
+
     /**
      * Set language to return translated content (optional)
      */
@@ -115,7 +117,7 @@ methods: {
 
 ```ts
 // Fetch all products in your shop
-this.$shopify.product.fetchAll().then(products => {
+this.$shopify.product.fetchAll().then((products) => {
   // Do something with the products
   console.log(products);
 });
@@ -123,7 +125,7 @@ this.$shopify.product.fetchAll().then(products => {
 // Fetch a single product by ID
 const productId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc4NTc5ODkzODQ=';
 
-this.$shopify.product.fetch(productId).then(product => {
+this.$shopify.product.fetch(productId).then((product) => {
   // Do something with the product
   console.log(product);
 });
@@ -133,7 +135,7 @@ this.$shopify.product.fetch(productId).then(product => {
 
 ```ts
 // Fetch all collections, including their products
-this.$shopify.collection.fetchAllWithProducts().then(collections => {
+this.$shopify.collection.fetchAllWithProducts().then((collections) => {
   // Do something with the collections
   console.log(collections);
   console.log(collections[0].products);
@@ -142,7 +144,7 @@ this.$shopify.collection.fetchAllWithProducts().then(collections => {
 // Fetch a single collection by ID, including its products
 const collectionId = 'Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzM2OTMxMjU4NA==';
 
-this.$shopify.collection.fetchWithProducts(collectionId).then(collection => {
+this.$shopify.collection.fetchWithProducts(collectionId).then((collection) => {
   // Do something with the collection
   console.log(collection);
   console.log(collection.products);
@@ -153,7 +155,7 @@ this.$shopify.collection.fetchWithProducts(collectionId).then(collection => {
 
 ```ts
 // Create an empty checkout
-this.$shopify.checkout.create().then(checkout => {
+this.$shopify.checkout.create().then((checkout) => {
   // Do something with the checkout
   console.log(checkout);
 });
@@ -172,7 +174,7 @@ const lineItemsToAdd = [
 ];
 
 // Add an item to the checkout
-this.$shopify.checkout.addLineItems(checkoutId, lineItemsToAdd).then(checkout => {
+this.$shopify.checkout.addLineItems(checkoutId, lineItemsToAdd).then((checkout) => {
   // Do something with the updated checkout
   console.log(checkout.lineItems); // Array with one additional line item
 });
@@ -184,7 +186,7 @@ this.$shopify.checkout.addLineItems(checkoutId, lineItemsToAdd).then(checkout =>
 const checkoutId = 'Z2lkOi8vc2hvcGlmeS9DaGVja291dC9kMTZmM2EzMDM4Yjc4N=';
 const input = { customAttributes: [{ key: 'MyKey', value: 'MyValue' }] };
 
-this.$shopify.checkout.updateAttributes(checkoutId, input).then(checkout => {
+this.$shopify.checkout.updateAttributes(checkoutId, input).then((checkout) => {
   // Do something with the updated checkout
 });
 ```
@@ -196,7 +198,7 @@ const checkoutId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTgyMTc3ODc1OTI='; // ID
 const lineItemsToUpdate = [{ id: 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc4NTc5ODkzODQ=', quantity: 2 }];
 
 // Update the line item on the checkout (change the quantity or variant)
-this.$shopify.checkout.updateLineItems(checkoutId, lineItemsToUpdate).then(checkout => {
+this.$shopify.checkout.updateLineItems(checkoutId, lineItemsToUpdate).then((checkout) => {
   // Do something with the updated checkout
   console.log(checkout.lineItems); // Quantity of line item 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc4NTc5ODkzODQ=' updated to 2
 });
@@ -209,7 +211,7 @@ const checkoutId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTgyMTc3ODc1OTI='; // ID
 const lineItemIdsToRemove = ['Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc4NTc5ODkzODQ='];
 
 // Remove an item from the checkout
-this.$shopify.checkout.removeLineItems(checkoutId, lineItemIdsToRemove).then(checkout => {
+this.$shopify.checkout.removeLineItems(checkoutId, lineItemIdsToRemove).then((checkout) => {
   // Do something with the updated checkout
   console.log(checkout.lineItems); // Checkout with line item 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc4NTc5ODkzODQ=' removed
 });
@@ -220,7 +222,7 @@ this.$shopify.checkout.removeLineItems(checkoutId, lineItemIdsToRemove).then(che
 ```ts
 const checkoutId = '2U4NWNkYzI4ZWEyOTdlOD9rZXk9MDVjMzY3Zjk3YWM0YWJjNGRhMTkwMDgwYTUzOGJmYmI=';
 
-this.$shopify.checkout.fetch(checkoutId).then(checkout => {
+this.$shopify.checkout.fetch(checkoutId).then((checkout) => {
   // Do something with the checkout
   console.log(checkout);
 });
@@ -233,7 +235,7 @@ const checkoutId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTgyMTc3ODc1OTI='; // ID
 const discountCode = 'best-discount-ever';
 
 // Add a discount code to the checkout
-this.$shopify.checkout.addDiscount(checkoutId, discountCode).then(checkout => {
+this.$shopify.checkout.addDiscount(checkoutId, discountCode).then((checkout) => {
   // Do something with the updated checkout
   console.log(checkout);
 });
@@ -245,7 +247,7 @@ this.$shopify.checkout.addDiscount(checkoutId, discountCode).then(checkout => {
 const checkoutId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTgyMTc3ODc1OTI='; // ID of an existing checkout
 
 // Removes the applied discount from an existing checkout.
-this.$shopify.checkout.removeDiscount(checkoutId).then(checkout => {
+this.$shopify.checkout.removeDiscount(checkoutId).then((checkout) => {
   // Do something with the updated checkout
   console.log(checkout);
 });
@@ -270,7 +272,7 @@ const shippingAddress = {
 };
 
 // Update the shipping address for an existing checkout.
-this.$shopify.checkout.updateShippingAddress(checkoutId, shippingAddress).then(checkout => {
+this.$shopify.checkout.updateShippingAddress(checkoutId, shippingAddress).then((checkout) => {
   // Do something with the updated checkout
 });
 ```
