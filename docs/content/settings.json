@@ -1,0 +1,11 @@
+{
+  "title": "Nuxt Shopify",
+  "url": "https://nuxt-shopify-docs.vercel.app/",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "Gomah/nuxt-shopify",
+  "twitter": "@gomah",
+  "defaultBranch": "master"
+}
