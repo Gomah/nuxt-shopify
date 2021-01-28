@@ -20,7 +20,7 @@
     "types/*.d.ts"
   ],
   "repository": "https://github.com/Gomah/nuxt-shopify",
-  "homepage": "https://github.com/Gomah/nuxt-shopify",
+  "homepage": "https://nuxt-shopify-docs.vercel.app",
   "publishConfig": {
     "access": "public"
   },
