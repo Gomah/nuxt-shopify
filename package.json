@@ -59,7 +59,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "husky": "^5.0.9",
     "jest": "^26.6.3",
-    "nuxt": "^2.15.0",
+    "nuxt": "^2.15.1",
     "prettier": "^2.2.1",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
