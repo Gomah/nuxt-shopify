@@ -10,13 +10,8 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: [
-    'airbnb-typescript/base',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
-  ],
-  plugins: ['@typescript-eslint'],
+  extends: ['airbnb-typescript/base', 'plugin:@typescript-eslint/recommended', 'prettier'],
+  plugins: ['prettier', '@typescript-eslint'],
   rules: {
     '@typescript-eslint/ban-ts-ignore': 0,
     '@typescript-eslint/ban-ts-comment': 0,
