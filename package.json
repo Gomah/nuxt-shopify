@@ -48,7 +48,7 @@
     "@types/consola": "^2.2.5",
     "@types/jest": "^26.0.23",
     "@types/jsdom": "^16.2.12",
-    "@types/node": "^15.12.2",
+    "@types/node": "^15.12.5",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.0",
     "babel-jest": "^27.0.6",
