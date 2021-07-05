@@ -36,8 +36,8 @@
     "test:lint": "eslint --ext .js,.ts, src/"
   },
   "dependencies": {
-    "@types/shopify-buy": "^2.10.5",
-    "isomorphic-unfetch": "^3.1.0",
+    "@types/shopify-buy": "2.10.5",
+    "isomorphic-unfetch": "3.1.0",
     "shopify-buy": "2.11.0"
   },
   "devDependencies": {
@@ -48,11 +48,11 @@
     "@types/consola": "^2.2.5",
     "@types/jest": "^26.0.23",
     "@types/jsdom": "^16.2.12",
-    "@types/node": "^15.12.5",
+    "@types/node": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.1",
     "babel-jest": "^27.0.6",
-    "eslint": "^7.29.0",
+    "eslint": "^7.30.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
@@ -66,6 +66,6 @@
     "standard-version": "^9.3.0",
     "ts-jest": "^27.0.3",
     "ts-node": "^10.0.0",
-    "typescript": "^4.3.4"
+    "typescript": "^4.3.5"
   }
 }
