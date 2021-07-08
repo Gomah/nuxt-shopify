@@ -36,7 +36,7 @@
     "test:lint": "eslint --ext .js,.ts, src/"
   },
   "dependencies": {
-    "@types/shopify-buy": "2.10.5",
+    "@types/shopify-buy": "2.10.6",
     "isomorphic-unfetch": "3.1.0",
     "shopify-buy": "2.11.0"
   },
@@ -46,9 +46,9 @@
     "@commitlint/config-conventional": "^12.1.4",
     "@nuxt/types": "^2.15.7",
     "@types/consola": "^2.2.5",
-    "@types/jest": "^26.0.23",
-    "@types/jsdom": "^16.2.12",
-    "@types/node": "^16.0.0",
+    "@types/jest": "^26.0.24",
+    "@types/jsdom": "^16.2.13",
+    "@types/node": "^16.0.1",
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/parser": "^4.28.2",
     "babel-jest": "^27.0.6",
@@ -57,7 +57,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-prettier": "^3.4.0",
-    "husky": "^7.0.0",
+    "husky": "^7.0.1",
     "jest": "^27.0.6",
     "nuxt": "^2.15.7",
     "prettier": "^2.3.2",
