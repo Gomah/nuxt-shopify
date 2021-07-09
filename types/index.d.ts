@@ -1,34 +1,34 @@
-import * as ShopifyBuy from 'shopify-buy';
+import type { Client, Config } from 'shopify-buy';
+import Vue from 'vue';
+import './vuex';
 
 declare module '@nuxt/vue-app' {
   interface Context {
-    $shopify: ShopifyBuy.Client;
+    $shopify: Client;
   }
 
   interface NuxtAppOptions {
-    $shopify: ShopifyBuy.Client;
+    $shopify: Client;
   }
 }
 
 // Nuxt 2.9+
 declare module '@nuxt/types' {
   interface Context {
-    $shopify: ShopifyBuy.Client;
+    $shopify: Client;
   }
 
   interface NuxtAppOptions {
-    $shopify: ShopifyBuy.Client;
+    $shopify: Client;
+  }
+
+  interface Configuration {
+    shopify?: Config;
   }
 }
 
 declare module 'vue/types/vue' {
   interface Vue {
-    $shopify: ShopifyBuy.Client;
-  }
-}
-
-declare module 'vuex' {
-  interface Store<S> {
-    $shopify: ShopifyBuy.Client;
+    $shopify: Client;
   }
 }

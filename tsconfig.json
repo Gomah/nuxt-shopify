@@ -11,6 +11,6 @@
     "esModuleInterop": true,
     "types": ["@types/node", "@types/jest", "@nuxt/types", "@types/shopify-buy"]
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "types/**/*.d.ts"],
   "exclude": ["node_modules"]
 }

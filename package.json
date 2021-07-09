@@ -13,7 +13,7 @@
     "shopify-buy",
     "nuxt-shopify"
   ],
-  "typings": "types/index.d.ts",
+  "types": "types/index.d.ts",
   "main": "lib/module.js",
   "files": [
     "lib",
