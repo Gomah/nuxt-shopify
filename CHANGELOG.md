@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.10.11](https://github.com/Gomah/nuxt-shopify/compare/v1.10.10...v1.10.11) (2021-07-25)
+
+
+### Documentation
+
+* fix docs dependency ([89fe620](https://github.com/Gomah/nuxt-shopify/commit/89fe62039b55fd447ceeb5b0fe33bb15e3aada86))
+
+
+### Chore
+
+* **deps-dev:** bump @types/node from 16.0.1 to 16.3.1 ([0d03979](https://github.com/Gomah/nuxt-shopify/commit/0d0397984c195a6c6b792112281ab3239e005cb4))
+* **deps-dev:** bump @types/node from 16.3.1 to 16.3.3 ([ad93398](https://github.com/Gomah/nuxt-shopify/commit/ad93398fe31596053bb91f909936114a66ed4c48))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([454d867](https://github.com/Gomah/nuxt-shopify/commit/454d86773e5ce76736e4824649d392f436baedb8))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([d74f784](https://github.com/Gomah/nuxt-shopify/commit/d74f78456f4b5f34de665301f0c60a21d7496eb3))
+* **deps-dev:** bump @typescript-eslint/parser from 4.28.2 to 4.28.3 ([9bb1939](https://github.com/Gomah/nuxt-shopify/commit/9bb1939d43d8fa3fdc7e909ace5fdcd6c4b6ac06))
+* **deps-dev:** bump @typescript-eslint/parser from 4.28.3 to 4.28.4 ([4481dc2](https://github.com/Gomah/nuxt-shopify/commit/4481dc21976209562d4f7a916b87ab60ec462349))
+* **deps-dev:** bump eslint from 7.30.0 to 7.31.0 ([90f093b](https://github.com/Gomah/nuxt-shopify/commit/90f093b29c9b1dd4443b174bc4bbf2768c484ebc))
+* **deps-dev:** bump standard-version from 9.3.0 to 9.3.1 ([09ce089](https://github.com/Gomah/nuxt-shopify/commit/09ce08971cdfad444154fdf4dc6ff90f582bb32a))
+* **deps-dev:** bump ts-node from 10.0.0 to 10.1.0 ([384529f](https://github.com/Gomah/nuxt-shopify/commit/384529fef9f56a4c6a28d2b06c5e4fe690ab43ec))
+* **deps:** bump @types/shopify-buy ([be0686d](https://github.com/Gomah/nuxt-shopify/commit/be0686dccacf18a6777933d6b7056b3bd4c910dc))
+
 ### [1.10.10](https://github.com/Gomah/nuxt-shopify/compare/v1.10.9...v1.10.10) (2021-07-09)
 
 ### [1.10.9](https://github.com/Gomah/nuxt-shopify/compare/v1.10.8...v1.10.9) (2021-07-08)
