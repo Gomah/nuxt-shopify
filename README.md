@@ -5,7 +5,7 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![Dependencies][david-dm-src]][david-dm-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![code style: prettier](https://img.shields.io/badge/code_style-airbnb/prettier-FF5A5F.svg?style=flat-square)](https://github.com/airbnb/javascript)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-000000.svg?style=flat-square)](https://prettier.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGomah%2Fnuxt-shopify.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FGomah%2Fnuxt-shopify?ref=badge_shield)
 
