@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](https://github.com/Gomah/nuxt-shopify/compare/v1.11.1...v1.12.0) (2021-11-03)
+
+
+### Features
+
+* bump shopify-buy to 2.13.0 ([0cf02e0](https://github.com/Gomah/nuxt-shopify/commit/0cf02e0b021f693c49ce02485468187bd7a68e23))
+
+
+### Chore
+
+* adjust test scripts ([a21949b](https://github.com/Gomah/nuxt-shopify/commit/a21949b2f25712c0b760a0a34957948262d7febd))
+* **dev-deps:** upgrade dependencies ([30e73c8](https://github.com/Gomah/nuxt-shopify/commit/30e73c8270ae1b4fc9060fbde73ae6d900d22142))
+
 ### [1.11.1](https://github.com/Gomah/nuxt-shopify/compare/v1.11.0...v1.11.1) (2021-09-15)
 
 ## [1.11.0](https://github.com/Gomah/nuxt-shopify/compare/v1.10.11...v1.11.0) (2021-09-01)
