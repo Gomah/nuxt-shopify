@@ -32,7 +32,8 @@
     "build": "tsc -b",
     "release": "yarn test && HUSKY_SKIP_HOOKS=1 standard-version && git push --follow-tags && npm publish",
     "watch": "tsc --watch",
-    "test": "yarn test:lint && NODE_ENV=test jest",
+    "test": "yarn test:lint && test:jest",
+    "test:jest": "NODE_ENV=test && jest",
     "test:lint": "eslint --ext .js,.ts, src/"
   },
   "dependencies": {
