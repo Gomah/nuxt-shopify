@@ -50,7 +50,7 @@
     "@types/jest": "^27.4.0",
     "@types/jsdom": "^16.2.14",
     "@types/node": "^17.0.8",
-    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.9.0",
     "babel-jest": "^27.4.6",
     "eslint": "^8.6.0",
