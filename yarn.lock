@@ -2884,10 +2884,10 @@
     "@types/mime" "^1"
     "@types/node" "*"
 
-"@types/shopify-buy@2.10.9":
-  version "2.10.9"
-  resolved "https://registry.yarnpkg.com/@types/shopify-buy/-/shopify-buy-2.10.9.tgz#4881b5f9adb202114037c7c3528d7391f6a16b6d"
-  integrity sha512-ill6a4LqneBrUZiXMNj60HCXlhL0DaP2tZW0fWUeMnT0YmsyolZNtLcEiu69ax0KJuUOYAmLo6bSrGTXBCsZ5A==
+"@types/shopify-buy@2.10.10":
+  version "2.10.10"
+  resolved "https://registry.yarnpkg.com/@types/shopify-buy/-/shopify-buy-2.10.10.tgz#69d6d4a64bdeef469d81ba7a761ebf67ec7510a5"
+  integrity sha512-KNX9ToXmH67+w2K+snlPbanM/dnmVxBKll7H1+UgPMJTDWxFzWttoNaiueSsiUEmNwu3NoFuGXdwew1bTLY4TQ==
 
 "@types/source-list-map@*":
   version "0.1.2"
