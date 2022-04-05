@@ -25,6 +25,18 @@ this.$shopify.product.fetch(productId).then((product) => {
 });
 ```
 
+#### Fetching product recommendations
+
+Find recommended products related to a given productId. To learn more about how recommendations are generated, see https://shopify.dev/themes/product-merchandising/recommendations.
+
+```ts
+// Fetch recommendations for a specific product
+this.$shopify.product.fetchRecommendations(productId).then((products) => {
+  // Do something with the products
+  console.log(products);
+});
+```
+
 ### Fetching Collections
 
 ```ts
