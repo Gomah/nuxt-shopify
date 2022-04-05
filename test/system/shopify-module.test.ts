@@ -23,12 +23,12 @@ describe('Nuxt Shopify', () => {
   test('asyncData', async () => {
     const html = await get('/async-data');
 
-    expect(html).toContain('Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzk4OTUyNzYwOTk=');
+    expect(html).toContain('gid://shopify/Product/9895276099');
   });
 
   test('nuxtServerInit', async () => {
     const html = await get('/nuxt-server-init');
-    expect(html).toContain('Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzk4OTUyNzYwOTk=');
+    expect(html).toContain('gid://shopify/Product/9895276099');
   });
 
   test('mounted', async () => {
@@ -36,7 +36,7 @@ describe('Nuxt Shopify', () => {
 
     window.onNuxtReady(() => {
       const html = window.document.body.innerHTML;
-      expect(html).toContain('Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzk4OTUyNzYwOTk=');
+      expect(html).toContain('gid://shopify/Product/9895276099');
     });
   });
 });
