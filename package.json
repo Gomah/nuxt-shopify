@@ -37,34 +37,34 @@
     "test:lint": "eslint --ext .js,.ts, src/"
   },
   "dependencies": {
-    "@types/shopify-buy": "2.10.9",
+    "@types/shopify-buy": "2.10.10",
     "isomorphic-unfetch": "3.1.0",
-    "shopify-buy": "2.14.0"
+    "shopify-buy": "2.15.1"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.16.7",
-    "@commitlint/cli": "^16.0.1",
-    "@commitlint/config-conventional": "^16.0.0",
+    "@babel/preset-env": "^7.16.11",
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
     "@nuxt/types": "^2.15.8",
     "@types/consola": "^2.2.5",
-    "@types/jest": "^27.4.0",
+    "@types/jest": "^27.4.1",
     "@types/jsdom": "^16.2.14",
-    "@types/node": "^17.0.8",
-    "@typescript-eslint/eslint-plugin": "^5.9.0",
-    "@typescript-eslint/parser": "^5.9.0",
-    "babel-jest": "^27.4.6",
-    "eslint": "^8.6.0",
-    "eslint-config-prettier": "^8.3.0",
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
-    "jest": "^27.4.7",
+    "jest": "^27.5.1",
     "nuxt": "^2.15.8",
-    "prettier": "^2.5.1",
+    "prettier": "^2.6.2",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
     "standard-version": "^9.3.2",
-    "ts-jest": "^27.1.2",
-    "ts-node": "^10.4.0",
-    "typescript": "^4.5.4"
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
   }
 }
