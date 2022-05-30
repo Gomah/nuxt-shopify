@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.11",
-    "@commitlint/cli": "^16.2.3",
+    "@commitlint/cli": "^17.0.1",
     "@commitlint/config-conventional": "^16.2.1",
     "@nuxt/types": "^2.15.8",
     "@types/consola": "^2.2.5",
