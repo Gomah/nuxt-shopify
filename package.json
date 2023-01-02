@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@types/shopify-buy": "2.10.10",
-    "isomorphic-unfetch": "3.1.0",
+    "isomorphic-unfetch": "4.0.1",
     "shopify-buy": "2.17.1"
   },
   "devDependencies": {
