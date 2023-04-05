@@ -5,16 +5,16 @@ import { Context } from '@nuxt/types';
 import 'isomorphic-unfetch';
 
 export default async (
-  ctx: Context & { $shopify: ShopifyBuy.Client },
+  ctx: Context & { $shopify: ShopifyBuy },
   inject: (name: string, value: unknown) => void
 ): Promise<void> => {
-  const config: ShopifyBuy.Config & { language: string } = {
+  const config: ShopifyBuy.ConfigAttrs & { language: string } = {
     domain: '<%= options.domain %>',
     storefrontAccessToken: '<%= options.storefrontAccessToken %>',
     language: '<%= options.language %>',
   };
 
-  const client: ShopifyBuy.Client = ShopifyModule.buildClient(config);
+  const client: ShopifyBuy = ShopifyModule.buildClient(config);
 
   Object.assign(client, {
     buildClient: (options, fetchClient) => {
