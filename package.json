@@ -5,6 +5,9 @@
   "author": {
     "name": "Gomah <hi@gomah.fr>"
   },
+  "workspaces": [
+    "docs"
+  ],
   "keywords": [
     "vue",
     "nuxt",
@@ -42,30 +45,30 @@
     "shopify-buy": "2.19.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.16.11",
-    "@commitlint/cli": "^16.2.3",
-    "@commitlint/config-conventional": "^16.2.1",
-    "@nuxt/types": "^2.15.8",
-    "@types/consola": "^2.2.5",
-    "@types/jest": "^27.4.1",
-    "@types/jsdom": "^16.2.14",
-    "@types/node": "^17.0.23",
-    "@typescript-eslint/eslint-plugin": "^5.18.0",
-    "@typescript-eslint/parser": "^5.18.0",
-    "babel-jest": "^27.5.1",
-    "eslint": "^8.12.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.4",
-    "jest": "^27.5.1",
-    "nuxt": "^2.15.8",
-    "prettier": "^2.6.2",
-    "request": "^2.88.2",
-    "request-promise-native": "^1.0.9",
-    "standard-version": "^9.3.2",
-    "ts-jest": "^27.1.4",
-    "ts-node": "^10.7.0",
-    "typescript": "^4.6.3"
+    "@babel/preset-env": "7.21.4",
+    "@commitlint/cli": "17.5.1",
+    "@commitlint/config-conventional": "17.4.4",
+    "@nuxt/types": "2.15.8",
+    "@types/consola": "2.2.5",
+    "@types/jest": "27.5.2",
+    "@types/jsdom": "16.2.15",
+    "@types/node": "17.0.45",
+    "@typescript-eslint/eslint-plugin": "5.57.1",
+    "@typescript-eslint/parser": "5.57.1",
+    "babel-jest": "29.5.0",
+    "eslint": "8.37.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "7.0.4",
+    "jest": "29.5.0",
+    "nuxt": "2.15.8",
+    "prettier": "2.8.7",
+    "request": "2.88.2",
+    "request-promise-native": "1.0.9",
+    "standard-version": "9.5.0",
+    "ts-jest": "29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.3"
   },
   "packageManager": "yarn@3.5.0"
 }
