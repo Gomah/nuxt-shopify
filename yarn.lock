@@ -2408,13 +2408,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/content-theme-docs@npm:0.11.0":
-  version: 0.11.0
-  resolution: "@nuxt/content-theme-docs@npm:0.11.0"
+"@nuxt/content-theme-docs@npm:0.11.1":
+  version: 0.11.1
+  resolution: "@nuxt/content-theme-docs@npm:0.11.1"
   dependencies:
     "@docsearch/css": ^1.0.0-alpha.28
     "@docsearch/js": ^1.0.0-alpha.28
-    "@nuxt/content": ^1.15.0
+    "@nuxt/content": ^1.15.1
     "@nuxt/types": ^2.15.2
     "@nuxtjs/color-mode": ^2.0.3
     "@nuxtjs/google-fonts": 1.2.0
@@ -2430,11 +2430,11 @@ __metadata:
     tailwind-css-variables: ^2.0.3
     theme-colors: ^0.0.5
     vue-scrollactive: ^0.9.3
-  checksum: 2ea59c8df86de3754d935ca4a4a55a820adb3052aa4675b763c8cf06857b4497c103c650f7d3420fdc75d9fa9aefa287bf9c2ce7fb40e59cabe809784f32d73f
+  checksum: e6bc05eb96bef29535259da77706694d0f49761111020353810783f675c3bf6f30f5c464db201f4a6cfe44c88fb8ae19b171672135cf7d329b27b3fd9c583aeb
   languageName: node
   linkType: hard
 
-"@nuxt/content@npm:^1.15.0":
+"@nuxt/content@npm:^1.15.1":
   version: 1.15.1
   resolution: "@nuxt/content@npm:1.15.1"
   dependencies:
@@ -12544,7 +12544,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nuxt-shopify-docs@workspace:docs"
   dependencies:
-    "@nuxt/content-theme-docs": 0.11.0
+    "@nuxt/content-theme-docs": 0.11.1
     nuxt: 2.15.8
   languageName: unknown
   linkType: soft
