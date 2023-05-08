@@ -1524,12 +1524,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:17.4.4":
-  version: 17.4.4
-  resolution: "@commitlint/config-conventional@npm:17.4.4"
+"@commitlint/config-conventional@npm:17.6.3":
+  version: 17.6.3
+  resolution: "@commitlint/config-conventional@npm:17.6.3"
   dependencies:
     conventional-changelog-conventionalcommits: ^5.0.0
-  checksum: 679d92509fe6e53ee0cc4202f8069d88360c4f9dbd7ab74114bb28278a196da517ef711dfe69893033a66e54ffc29e8df2ccf63cfd746a89c82a053949473c4b
+  checksum: 2dbe26cfafdd320141373ed7a7c656d35279300658b4474509bbcace80887701bc493247f57b27284e435029ade8680a822aeb454a7587d89fa42a0e7a774ce1
   languageName: node
   linkType: hard
 
@@ -12555,7 +12555,7 @@ __metadata:
   dependencies:
     "@babel/preset-env": 7.21.4
     "@commitlint/cli": 17.5.1
-    "@commitlint/config-conventional": 17.4.4
+    "@commitlint/config-conventional": 17.6.3
     "@nuxt/types": 2.15.8
     "@types/consola": 2.2.5
     "@types/jest": 27.5.2
