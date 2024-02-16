@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.18.0](https://github.com/Gomah/nuxt-shopify/compare/v1.17.1...v1.18.0) (2024-02-16)
+
+
+### Features
+
+* bump shopify-buy to 2.21.1 ([dd209e1](https://github.com/Gomah/nuxt-shopify/commit/dd209e15e90c91e37d0a897642db1c1f26560acc))
+
+
+### Chore
+
+* dedupe yarn.lock ([58979fc](https://github.com/Gomah/nuxt-shopify/commit/58979fcad25606d5c86a0cebffb21e0404c3bcb4))
+* **dev-deps:** upgrade dependencies ([6b07e0c](https://github.com/Gomah/nuxt-shopify/commit/6b07e0cbb8fff1db3a041c2f6ed207af48195cc8))
+* remove docs/yarn.lock as we are now using workspaces ([460a6fa](https://github.com/Gomah/nuxt-shopify/commit/460a6fa6e72c0b908137d29ca721b6e24d261324))
+
 ### [1.17.1](https://github.com/Gomah/nuxt-shopify/compare/v1.17.0...v1.17.1) (2023-04-05)
 
 ## [1.17.0](https://github.com/Gomah/nuxt-shopify/compare/v1.16.2...v1.17.0) (2023-04-05)
