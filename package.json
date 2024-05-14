@@ -1,6 +1,6 @@
 {
   "name": "nuxt-shopify",
-  "version": "1.18.0",
+  "version": "1.19.0",
   "description": "Easy Shopify Buy client integration with Nuxt.js",
   "author": {
     "name": "Gomah <hi@gomah.fr>"
