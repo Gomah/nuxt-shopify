@@ -49,7 +49,7 @@
     "@commitlint/cli": "18.6.1",
     "@commitlint/config-conventional": "18.6.2",
     "@nuxt/types": "2.17.3",
-    "@types/consola": "2.2.5",
+    "@types/consola": "2.2.8",
     "@types/jest": "27.5.2",
     "@types/jsdom": "16.2.15",
     "@types/node": "20.11.19",
