@@ -3659,12 +3659,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/consola@npm:2.2.5":
-  version: 2.2.5
-  resolution: "@types/consola@npm:2.2.5"
+"@types/consola@npm:2.2.8":
+  version: 2.2.8
+  resolution: "@types/consola@npm:2.2.8"
   dependencies:
     consola: "npm:*"
-  checksum: 10/790da016bb59f3fd4ed28c1587a8a61e5a2018f617b15b3b03415df0037fd4f6a914cdb4049ddfb4e41b605cbf597a18d5dd9060df529b30f63c9d0f921cad15
+  checksum: 10/b932b4115aa68472737226d860e4de7770305181d3aade3efa0446f77994fe2424a4af62d24eacc587a52eb6b612fca1ef6fae2bc40c6465dcf3766d01028a40
   languageName: node
   linkType: hard
 
@@ -13400,7 +13400,7 @@ __metadata:
     "@commitlint/cli": "npm:18.6.1"
     "@commitlint/config-conventional": "npm:18.6.2"
     "@nuxt/types": "npm:2.17.3"
-    "@types/consola": "npm:2.2.5"
+    "@types/consola": "npm:2.2.8"
     "@types/jest": "npm:27.5.2"
     "@types/jsdom": "npm:16.2.15"
     "@types/node": "npm:20.11.19"
