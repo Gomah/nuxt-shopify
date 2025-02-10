@@ -52,7 +52,7 @@
     "@types/consola": "2.2.5",
     "@types/jest": "27.5.2",
     "@types/jsdom": "16.2.15",
-    "@types/node": "20.11.19",
+    "@types/node": "22.13.1",
     "@typescript-eslint/eslint-plugin": "7.0.1",
     "@typescript-eslint/parser": "7.0.1",
     "babel-jest": "29.7.0",
