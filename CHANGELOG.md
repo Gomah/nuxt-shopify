@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-rc.0](https://github.com/Gomah/nuxt-shopify/compare/v1.19.0...v2.0.0-rc.0) (2025-03-05)
+
 ## [1.19.0](https://github.com/Gomah/nuxt-shopify/compare/v1.18.0...v1.19.0) (2024-05-14)
 
 
