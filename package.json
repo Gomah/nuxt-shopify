@@ -33,7 +33,7 @@
     "prepublishOnly": "yarn build",
     "test:system": "NODE_ENV=test jest --testRegex \"/test/system/(.+)\\.test\\.ts$\"",
     "build": "tsc -b",
-    "release:rc": "yarn test && HUSKY_SKIP_HOOKS=1 standard-version --prerelease rc && git push --follow-tags && npm publish",
+    "release:rc": "yarn test && HUSKY_SKIP_HOOKS=1 standard-version --prerelease rc && git push --follow-tags && npm publish --tag rc",
     "release": "yarn test && HUSKY_SKIP_HOOKS=1 standard-version && git push --follow-tags && npm publish",
     "watch": "tsc --watch",
     "test": "yarn test:lint && yarn test:jest",
