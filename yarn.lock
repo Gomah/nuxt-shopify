@@ -4169,10 +4169,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/shopify-buy@npm:2.17.4":
-  version: 2.17.4
-  resolution: "@types/shopify-buy@npm:2.17.4"
-  checksum: 10/c2198f4ee581619834d525cdaf463640dd5c2c95ed8263074ff188040b39a058ffa8bf250273c9e97ea51829b92dbbf555d11462882851d200a582d87154d2b2
+"@types/shopify-buy@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@types/shopify-buy@npm:3.0.0"
+  checksum: 10/07505c548a063b5bbc9564ec6cd1f5b1037ba415b09799fcbeea667e4792797a097c60480210940c8a7c798d90d926febb76c2f180cc7856a1669918f5578076
   languageName: node
   linkType: hard
 
@@ -13653,7 +13653,7 @@ __metadata:
     "@types/jest": "npm:27.5.2"
     "@types/jsdom": "npm:16.2.15"
     "@types/node": "npm:20.11.19"
-    "@types/shopify-buy": "npm:2.17.4"
+    "@types/shopify-buy": "npm:3.0.0"
     "@typescript-eslint/eslint-plugin": "npm:7.0.1"
     "@typescript-eslint/parser": "npm:7.0.1"
     babel-jest: "npm:29.7.0"
@@ -13668,7 +13668,7 @@ __metadata:
     prettier: "npm:3.2.5"
     request: "npm:2.88.2"
     request-promise-native: "npm:1.0.9"
-    shopify-buy: "npm:3.0.0-rc.1"
+    shopify-buy: "npm:3.0.1"
     standard-version: "npm:9.5.0"
     ts-jest: "npm:29.1.2"
     ts-node: "npm:10.9.2"
@@ -17115,10 +17115,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shopify-buy@npm:3.0.0-rc.1":
-  version: 3.0.0-rc.1
-  resolution: "shopify-buy@npm:3.0.0-rc.1"
-  checksum: 10/36725ae62b0bee8618fc20bee8b46477ac0f5651356b0189317fcdfe1e4fcbc0f944180126b115c6f9941793b18d2aa0904e3d6873e9c72ffc14674766ccafad
+"shopify-buy@npm:3.0.1":
+  version: 3.0.1
+  resolution: "shopify-buy@npm:3.0.1"
+  checksum: 10/b2c003016a8886d8156e931a8caf1af6d33fc04a6fceff5097c6065a0eb3fdfc6154b0794b04e8bed13745b9b5f1688888df3d0e4a5a0ef4c7666aa83d6e75dc
   languageName: node
   linkType: hard
 
