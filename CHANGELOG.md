@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/Gomah/nuxt-shopify/compare/v2.0.0-rc.0...v2.0.0) (2025-03-24)
+
+
+### Chore
+
+* add release:rc script ([cc358c0](https://github.com/Gomah/nuxt-shopify/commit/cc358c0fbf4533cec4013b76e0b8cb16368d100f))
+* **deps:** bump shopify-buy & @types/shopify-buy ([f34764e](https://github.com/Gomah/nuxt-shopify/commit/f34764ecfd14bd001ff58dd95161b3a84c6b7ae0))
+
 ## [2.0.0-rc.0](https://github.com/Gomah/nuxt-shopify/compare/v1.19.0...v2.0.0-rc.0) (2025-03-05)
 
 ## [1.19.0](https://github.com/Gomah/nuxt-shopify/compare/v1.18.0...v1.19.0) (2024-05-14)
