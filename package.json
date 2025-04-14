@@ -43,7 +43,7 @@
   "dependencies": {
     "@types/shopify-buy": "3.0.0",
     "isomorphic-unfetch": "3.1.0",
-    "shopify-buy": "3.0.3"
+    "shopify-buy": "3.0.4"
   },
   "devDependencies": {
     "@babel/core": "7.26.9",
