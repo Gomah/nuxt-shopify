@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.3](https://github.com/Gomah/nuxt-shopify/compare/v2.0.2...v2.0.3) (2025-04-14)
+
+
+### Bug Fixes
+
+* **deps:** bump shopify-buy to 3.0.4 ([9500a42](https://github.com/Gomah/nuxt-shopify/commit/9500a425ac7a133bdf4858459df75b3557c32dca))
+
 ### [2.0.2](https://github.com/Gomah/nuxt-shopify/compare/v2.0.1...v2.0.2) (2025-04-02)
 
 
