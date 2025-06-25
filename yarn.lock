@@ -13668,7 +13668,7 @@ __metadata:
     prettier: "npm:3.2.5"
     request: "npm:2.88.2"
     request-promise-native: "npm:1.0.9"
-    shopify-buy: "npm:3.0.6"
+    shopify-buy: "npm:3.0.7"
     standard-version: "npm:9.5.0"
     ts-jest: "npm:29.1.2"
     ts-node: "npm:10.9.2"
@@ -17115,10 +17115,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shopify-buy@npm:3.0.6":
-  version: 3.0.6
-  resolution: "shopify-buy@npm:3.0.6"
-  checksum: 10/44dd979f12b41ebcf094beb19e12606121b97aa9f2e5c8fb18509039ce9955f716a3ddf9b4a182933e1cbbf08778ca1fb8d72ec53e7974ef55b7d956106e0ac6
+"shopify-buy@npm:3.0.7":
+  version: 3.0.7
+  resolution: "shopify-buy@npm:3.0.7"
+  checksum: 10/ce9df7d39fc0d6d663e35af525c00bc961ff17383c894abbbd697f46f0a595967ac4a42795f81d4034cfa62e5bf8fffd70da43cc430c81293d807b65daf3ea3b
   languageName: node
   linkType: hard
 
